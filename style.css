@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&family=Style+Script&display=swap');
+body{
+  background: linear-gradient(60deg, red,orange,yellow,green,blue,indigo,violet);
+  background-repeat: no-repeat;
+  font-family: 'Comic Neue', cursive;
+  font-family: 'Style Script', cursive;  
+  text-align: center;
+}
+.Abb{
+  font-size: 40px;
+  color: black;;
+}
+img{
+  border-radius: 100px;
+}
+img:hover{
+  content: url("https://lh3.googleusercontent.com/proxy/6r9HOBbl16ynAOGiiy_V4kA6rH_p8VKH_QDmx7kf7iE5YdBqiAsADr1HEbn1Rlh6zbwnkthYjAqXYtrasvf4-LoQIFmn5BvjgOpjE12rVZPV9v-oPMgQrwtDj7gX1ZNTau3Tif4");
+}
+::selection{
+  color: white;
+}
+@media (max-width: 1201px){
+  body{
+    text-align: center;
+  }
+  img{
+    width: 415px;
+  }
+}

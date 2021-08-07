@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Best Buddy</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <style>
+        ::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: black; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(60deg, red,orange,yellow,green,blue,indigo,violet);
+}
+    </style>
+</head>
+    <body onload="load()">
+        <h1>Best Buddy of Mine</h1>
+        <div>
+            <p id="question"></p>
+        </div>
+        <div>
+            <button id="option1"></button>
+            <button id="option2"></button>
+            <button id="option3"></button>
+            <button id="option4"></button>
+            <button id="option5"></button>
+        </div><br>
+        <button id="next">Next</button>
+        <div id="score"></div>
+        <p id="extend">By P.H.V.S.S.Koundinya</p>
+        <script src="./quiz.js"></script>
+</body>
+</html>
